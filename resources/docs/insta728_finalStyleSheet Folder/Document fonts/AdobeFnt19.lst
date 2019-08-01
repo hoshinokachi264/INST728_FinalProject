@@ -1,0 +1,74 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Calibri
+FamilyName:Calibri
+StyleName:Regular
+FullName:Calibri
+MenuName:Calibri
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\S\Desktop\ArtByShelagh\portfolio\style sheet\insta728_finalStyleSheet Folder\Document fonts\calibri.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:810064
+FileModTime:1536707258
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Calibri
+NameArray:0,Win,1,Calibri
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Calibri-Bold
+FamilyName:Calibri
+StyleName:Bold
+FullName:Calibri Bold
+MenuName:Calibri
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\S\Desktop\ArtByShelagh\portfolio\style sheet\insta728_finalStyleSheet Folder\Document fonts\calibrib.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:847588
+FileModTime:1536707258
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Calibri Bold
+NameArray:0,Win,1,Calibri
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSlab-Light
+FamilyName:Roboto Slab
+StyleName:Light
+FullName:Roboto Slab Light
+MenuName:Roboto Slab
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\S\Desktop\ArtByShelagh\portfolio\style sheet\insta728_finalStyleSheet Folder\Document fonts\RobotoSlab-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:179096
+FileModTime:1522765305
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Slab Light
+NameArray:0,Mac,4,Roboto Slab Light
+NameArray:0,Win,1,Roboto Slab
+NameArray:0,Win,16,Roboto Slab
+%EndFont
+

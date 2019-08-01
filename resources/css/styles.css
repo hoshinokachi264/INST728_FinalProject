@@ -1,0 +1,62 @@
+h1 {
+    font-family: museo-slab, slab-serif;
+}
+
+body {
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: #464646;
+}
+
+/* Navigation */
+
+.header_container {
+    border-bottom: 1px solid #afb2b3;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    margin-right: auto;
+    padding-left: 1em;
+}
+.header_container a {
+    width: auto;
+    height: auto;
+}
+.nav a:link {
+    text-decoration: none;
+    padding: 2rem;
+    color: #afb2b3;
+}
+.nav a:hover {
+    background-color: #8ed38e;
+    
+}
+.nav a:active {
+    
+}
+a:visited {
+    color: #464646;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding-right: 1em; 
+    top: 0;
+    width: 100%; 
+}
+
+/* Main Content */
+
+.container {
+    display: grid;
+    
+}
+main-content {
+    padding: 1em;
+    background-color: brown;
+}
+.banner {
+    background-color: aliceblue;
+}
