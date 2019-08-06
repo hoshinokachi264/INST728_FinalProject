@@ -6,6 +6,15 @@ body {
     font-family: verdana, helvetica, arial, sans-serif;
     color: #464646;
 }
+a:hover {
+    text-decoration: none;
+}
+a:link {
+    color: #8ed38e;
+}
+a:visited {
+    color: #464646;
+}
 
 /* Navigation */
 
@@ -29,25 +38,26 @@ body {
 .nav a:link {
     text-decoration: none;
     padding: 2rem;
-    color: #afb2b3;
-}
-
-.nav a:hover {
-    background-color: #8ed38e;
-
-}
-
-.nav a:active {}
-
-a:visited {
     color: #464646;
 }
 
+.nav a:active {
+    background-color: #fae475;
+}
+.nav a:hover {
+    background-color: #8ed38e;
+}
 .nav {
     display: flex;
     list-style: none;
     top: 0;
     width: 100%;
+}
+
+/* Banner */
+
+.banner {
+    background-color: aliceblue;
 }
 
 /* Main Content */
@@ -64,9 +74,6 @@ a:visited {
     padding: 1em;
 }
 
-.banner {
-    background-color: aliceblue;
-}
 
 /* Side Bar */
 
@@ -81,7 +88,21 @@ a:visited {
 /* Footer */
 
 footer {
+    border-top: 1px solid #afb2b3;
     background-color: #8ed38e;
-    height: auto;
     padding: 1em;
+}
+.footer_container {
+    
+    display: flex;
+}
+.footer_container a:link {
+    color: #464646;
+}
+.sm_icons {
+   
+    margin-right: auto;
+}
+.shop_icon {
+    width: ;
 }
