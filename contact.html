@@ -18,6 +18,35 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./resources/imgs/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./resources/imgs/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    
+    <!--Font -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+    
+     <script type="text/javascript">
+        //Form Validation Code
+
+        function validate() {
+
+            if (document.ThankYouForm.name.value == "") {
+                alert("Enter Your Name Silly!");
+                document.ThankYouForm.name.focus();
+                return false;
+            }
+            if (document.ThankYouForm.subject.value == "") {
+                alert("But WHY?");
+                document.ThankYouForm.subject.focus();
+                return false;
+            }
+            if (document.ThankYouForm.comment.value == "") {
+                alert("Say Something!");
+                document.ThankYouForm.comment.focus();
+                return false;
+            }
+            return (true);
+
+        }
+    </script>
 </head>
 
 <body>
@@ -31,7 +60,7 @@
                     <li class="Home"><a href="index.html" class="nav">Home</a></li>
                     <li class="About"><a href="about.html" class="nav">About</a></li>
                     <li class="Contact"><a href="contact.html" class="nav">Contact</a></li>
-                    <li class="Shop"><a href="shop.html" class="nav">Shop</a></li>
+                    <li class="Shop"><a href="#" class="nav">Shop</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,68 +68,42 @@
 
     <!--Banner -->
     <div class="banner">
-        <img src="">
-        <div>
-            <h3>Place banner img here</h3>
-        </div>
+        <img src="./resources/imgs/bannerContact.png">
     </div>
+        
     <div class="container">
         <!-- Main Content -->
 
-        <div class="main-content">
-            <div class="main-article">
-                <img src="">
-                <h1>Let's Chat!</h1>
-                <div class="content">
-                    <p class="description1">Place contact form here</p>
-                    <div class="read-more">
-                        <a href="#" class="read-link">Place submit button here</a>
-                    </div>
-                </div>
+          <div class="form-container">
+            <div id="form">
+                <table>
+                    <form name="ThankYouForm" action="thankyou.html" onsubmit="return(validate());">
+                        <tr>
+                            <td class="col1">What's your Name?:</td>
+                            <td class="col2"><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Why you wanna talk to us?</td>
+                            <td class="col2 comment"><input type="text" class="subject" name="subject"></td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Say something!:</td>
+                            <td class="col2"><textarea class="comment" name="comment"></textarea>
+                        </tr>
+                        <br>
+                         <tr>    
+                             <td>&nbsp;</td>
+                             <td> <a href="thankyou.html"><input type="submit" name="submit" value="Click!"></a>
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+
             </div>
         </div>
+    </div>
 
-        <!-- Side bar 
-
-        <div class="sidebar">
-            <div class="sub-article">
-                <img src="">
-                <div class="sidebar-info">
-                    <h3>New Home!</h3>
-                    <div class="description2">
-                        <span>Today Leer and I were adopted meoooow</span>
-                    </div>
-                    <div class="read-more">
-                        <a href="#" class="read-link">More Meow -></a>
-                    </div>
-                </div>
-            </div>
-            <div class="sub-article">
-                <img src="">
-                <div class="sidebar-info">
-                    <h3>New Litter box!</h3>
-                    <div class="description2">
-                        <span>O. My. Meow....</span>
-                    </div>
-                    <div class="read-more">
-                        <a href="#" class="read-link">More Meow -></a>
-                    </div>
-                </div>
-            </div>
-            <div class="sub-article">
-                <img src="">
-                <div class="sidebar-info">
-                    <h3>There's Another Cat?!</h3>
-                    <div class="description2">
-                        <span>First, new house much bigger than old house. Two, there's another cat here?!</span>
-                    </div>
-                    <div class="read-more">
-                        <a href="#" class="read-link">More Meow -></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+        
 
     <!-- Footer -->
 

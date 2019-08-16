@@ -1,7 +1,39 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    
 }
 html {
    width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: #464646;
+    min-height: 100vh;
+    background-color: #f6fbe3;
+}
+header {
+    background-color: white;
+}
+h1, h2, h3 {
+    font-family: 'Zilla Slab', serif;
+}
+a:hover {
+    text-decoration: none;
+    color: #464646;
+}
+
+a:link {
+    color: #464646;
+}
+a:visited {
+    color: #8ed38e;
+}
+ul {
+    list-style: none;
 }
